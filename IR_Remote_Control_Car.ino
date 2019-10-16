@@ -4,9 +4,7 @@ IRrecv irrecv(RECV_PIN);
 decode_results results;
 #define IR_Go      0x00ff629d
 #define IR_Back    0x00ffa857
-#define IR_Left    0x00ff22dd
-#define IR_Right   0x00ffc23d
-#define IR_Stop    0x00ff02fd
+
 #define IR_ESC     0x00ff52ad
 #define Lpwm_pin  5     //adjusting speed 
 #define Rpwm_pin  10    //adjusting speed //
